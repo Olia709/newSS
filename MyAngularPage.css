@@ -1,0 +1,36 @@
+.header1{
+    margin: auto;
+    color: aqua;
+    background-color: brown;
+    text-align: center;
+    padding: 30px;
+}
+.aside1{
+    background-color:chocolate
+}
+.main1{
+background-color: bisque}
+.header2{
+    margin: auto;
+    color: aqua;
+    background-color:blueviolet;
+    text-align: center;
+    padding: 30px;
+}
+.aside2{
+    background-color:cadetblue
+}
+.main2{
+background-color:chartreuse}
+.header3{
+    margin: auto;
+    color: aqua;
+    background-color:aqua;
+    text-align: center;
+    padding: 30px;
+}
+.aside3{
+    background-color:beige
+}
+.main3{
+background-color:coral}

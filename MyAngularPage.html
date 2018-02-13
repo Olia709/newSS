@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="MyAngularPage.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="MyAngularPage.css"> </head>
+
+<body >
+   <div ng-controller="myCtrl as Ctrl">
+    <div class="{{Ctrl.bestStyle.header}}">
+        <h1>My Angular Page</h1>
+        <h5>You can change style</h5>
+        <button type="button" class="btn btn-warning" ng-click="Ctrl.clickStyle1()" >Style 1 </button>
+        <button type="button" class="btn btn-warning" ng-click="Ctrl.clickStyle2()">Style 2</button>
+        <button type="button" class="btn btn-warning" ng-click="Ctrl.clickStyle3()">Style 3</button>
+    </div>
+    <div class="row">
+        <div class="col-4 {{Ctrl.bestStyle.header}}" >
+            <h3>Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores blanditiis corporis minus commodi ad, recusandae deserunt! Optio eligendi adipisci, tenetur natus veritatis soluta laboriosam magni est quibusdam. Atque, distinctio.</p>
+        </div>
+        <div class="col-4 {{Ctrl.bestStyle.aside}}">
+            <h3>Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis molestiae rem totam? Repellat accusamus adipisci, voluptatem dolorem culpa quod nulla suscipit ullam eaque, numquam natus, dolores iure cumque! Dicta, culpa.</p>
+        </div>
+        <div class="col-4 {{Ctrl.bestStyle.main}}">
+            <h3>Column 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti vel voluptatum error tempora beatae at nam est sunt, consequatur nostrum inventore quam iure! Ipsam assumenda cum accusamus dolorem, sunt non.</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
